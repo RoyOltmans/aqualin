@@ -17,7 +17,7 @@ NOTE requirements are:
 
 BLE reverse engeneered findings:
 
-Service identified for maunual programming:
+Service identified for manual programming:
 uuid: 0000fceb-0000-1000-8000-00805f9b34fb
 handle: 0x0073
 
