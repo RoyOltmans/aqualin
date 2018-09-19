@@ -8,10 +8,10 @@ This is a reverse engeneered Bluetooth Low Energy control of the aqualin BLE sol
 The purpose of this script is to prove that it's possible to control a off the shelve BLE selenoid valve with open software (scripts). No garantees or liability can be given on usage of these scripts, usage of these scripts are at your own risk. 
 
 Requirements are: 
-- Linux distro (eg debian etc)
+- Linux distro (eg debian or raspbian etc)
 - hcitool
 - gatttool 
-- A compatible version of a BLE stack
+- A compatible version of a BLE stack (a rpi zero w works great)
 
 I wrote two scripts containing the gatt commands to the correct uuid to control the device. Its neseccary to change the mac address to your aquilin device within this command in the script.
 
