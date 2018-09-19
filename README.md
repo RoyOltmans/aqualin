@@ -4,16 +4,7 @@ All rights of the device are owned by Aqualin
 
 This is a reverse engeneered Bluetooth Low Energy control of the aqualin BLE solenoid valve device without custumizations on the device itself.
 
-The purpose of this script is to prove that it's possible to control a off the shelve BLE selenoid valve with open software (scripts). No garantees or liability can be given on usage of these scripts, usage is at your own risk. 
-
-The script shows the current breakup of a working command set.
-
-NOTE requirements are: 
-- Linux distro (eg debian etc)
-- hcitool
-- gatttool 
-- A compatible version of a BLE stack
-
+The purpose of this script is to prove that it's possible to control a off the shelve BLE selenoid valve with open software (scripts). No garantees or liability can be given on usage of these scripts, usage of these scripts are at your own risk. 
 
 BLE reverse engeneered findings:
 
@@ -21,7 +12,9 @@ Service identified for manual programming:
 uuid: 0000fceb-0000-1000-8000-00805f9b34fb
 handle: 0x0073
 
-write bytes/char string see the breakup
+The script shows the current breakup of a working command set.
+
+Write bytes/char string see the breakup
 
 Value (payload) [7b03][00|01]00[hex:MM]
 
@@ -34,3 +27,9 @@ Examples are:
 Last two characters are hex written minute timer (how long the valve will be opened, untested but assumed in a quick test)
 
 - 7b03010000 off
+
+Requirements are: 
+- Linux distro (eg debian etc)
+- hcitool
+- gatttool 
+- A compatible version of a BLE stack
