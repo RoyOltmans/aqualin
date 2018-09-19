@@ -1,10 +1,10 @@
 # aqualin rev 0.1
 
-Reverse engeneered aqualin BLE solenoid valve
+All rights of the device are owned by Aqualin
 
-No garantees or liability can be given usage of these scripts are totaly on your own risk.
+This is a reverse engeneered control of the aqualin BLE solenoid valve device without custumizations on the device itself.
 
-The purpose of this script is to prove that it's possible to control a off the shelve BLE selenoid valve with open software (scripts).
+The purpose of this script is to prove that it's possible to control a off the shelve BLE selenoid valve with open software (scripts). No garantees or liability can be given on usage of these scripts, usage is at your own risk. 
 
 The script shows the current breakup of a working command set.
 
