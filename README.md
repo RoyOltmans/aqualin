@@ -26,9 +26,9 @@ write bytes/char string see the breakup
 value [7b03][00|01]00[hex:MM]
 Examples are:
 
-7b03010005 on for 5min
-7b0301001e on for 30min
-7b0301003c on for 60min
+- 7b03010005 on for 5min
+- 7b0301001e on for 30min
+- 7b0301003c on for 60min
 Last two characters are hex written minute timer (how long the valve will be opened, untest yet)
 
-7b03010000 off
+- 7b03010000 off
