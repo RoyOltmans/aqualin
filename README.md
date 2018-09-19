@@ -2,7 +2,7 @@
 
 All rights of the device are owned by Aqualin
 
-This is a reverse engeneered control of the aqualin BLE solenoid valve device without custumizations on the device itself.
+This is a reverse engeneered Bluetooth Low Energy control of the aqualin BLE solenoid valve device without custumizations on the device itself.
 
 The purpose of this script is to prove that it's possible to control a off the shelve BLE selenoid valve with open software (scripts). No garantees or liability can be given on usage of these scripts, usage is at your own risk. 
 
