@@ -1,5 +1,5 @@
-# aqualin rev 0.2
-# Changes: Appending and extending the readme
+# Aqualin BLE bash control rev 0.2
+Changes: Appending and extending the readme
 
 All rights of the device are owned by Aqualin
 
