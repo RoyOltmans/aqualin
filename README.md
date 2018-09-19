@@ -10,8 +10,8 @@ The script shows the current breakup of a working command set.
 
 NOTE requirements are: 
 - Linux distro (eg debian etc)
-- HCITOOL
-- GATTTOOl 
+- hcitool
+- gatttool 
 - A compatible version of a BLE stack
 
 
