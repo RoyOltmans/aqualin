@@ -6,13 +6,11 @@ This is a reverse engeneered Bluetooth Low Energy control of the aqualin BLE sol
 
 The purpose of this script is to prove that it's possible to control a off the shelve BLE selenoid valve with open software (scripts). No garantees or liability can be given on usage of these scripts, usage of these scripts are at your own risk. 
 
-BLE reverse engeneered findings:
+I wrote two scripts containing the gatt commands to the correct uuid to control the device. Its neseccary to change the mac address to your aquilin device in the command.
 
 Service identified for manual programming:
 uuid: 0000fceb-0000-1000-8000-00805f9b34fb
 handle: 0x0073
-
-The script shows the current breakup of a working command set.
 
 Write bytes/char string see the breakup
 
