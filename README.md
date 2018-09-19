@@ -23,7 +23,8 @@ handle: 0x0073
 
 write bytes/char string see the breakup
 
-value [7b03][00|01]00[hex:MM]
+Value (payload) [7b03][00|01]00[hex:MM]
+
 Examples are:
 
 - 7b03010005 on for 5min
