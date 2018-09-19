@@ -1,4 +1,5 @@
-# aqualin rev 0.1
+# aqualin rev 0.2
+# Changes: Appending and extending the readme
 
 All rights of the device are owned by Aqualin
 
