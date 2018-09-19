@@ -11,7 +11,7 @@ Requirements are:
 - Linux distro (eg debian or raspbian etc)
 - hcitool
 - gatttool 
-- A compatible version of a BLE stack (a rpi zero w works great)
+- A compatible version of a BLE stack and hardware (a rpi zero w in total works great and is quite cheap)
 
 I wrote two scripts containing the gatt commands to the correct uuid to control the device. Its neseccary to change the mac address to your aquilin device within this command in the script.
 
