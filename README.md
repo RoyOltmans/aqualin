@@ -29,6 +29,6 @@ Examples are:
 - 7b03010005 on for 5min
 - 7b0301001e on for 30min
 - 7b0301003c on for 60min
-Last two characters are hex written minute timer (how long the valve will be opened, untest yet)
+Last two characters are hex written minute timer (how long the valve will be opened, untested but assumed in a quick test)
 
 - 7b03010000 off
