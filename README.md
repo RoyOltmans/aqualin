@@ -35,17 +35,16 @@ Create a folder for example aqualin and clone the repository
 
 To identify the mac address of your device use hcitool (sudo hcitool lescan). This will list all the BLE devices, for example a identified Aqualin device is (it identifies as Spray-Mist, like the app):
 
-01:02:03:04:05:06 Spray-Mist
+::
 
-The mac address should be entered in the command below replacing the brackets with the correct mac, for example: 
+    $  sudo hcitool lescan
+
+*01:02:03:04:05:06* Spray-Mist
+
+Now edit the two files ""timeronoff_off.sh"" and ""timeronoff_on.sh"". The mac address in the file should be entered in the command below replacing the brackets with the correct mac, for example: 
 ::
 
     $  gatttool -b 01:02:03:04:05:06 --char-write-req -a 0x0073 -n 7b0301003c)
-
-The command in the open valve for 30min is: 
-::
-
-    $  gatttool -b [01:02:03:04:05:06 put a valid mac address of the aqualin device here without the brackets] --char-write-req -a 0x0073 -n 7b0301003c
 
 # Details
 
