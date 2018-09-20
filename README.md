@@ -22,14 +22,12 @@ Requirements are:
 - A compatible version of a BLE stack and hardware (a rpi zero w in total works great and is quite cheap)
 
 To install hcitool and gatttool for debian:
-::
 
     $  sudo apt install git bluetooth bluez
 
 
 Create a folder for example aqualin and clone the repository
 
-::
 
     $  git clone https://github.com/RoyOltmans/aqualin.git /opt/aqualin
 
@@ -37,7 +35,6 @@ Create a folder for example aqualin and clone the repository
 
 To identify the mac address of your device use hcitool (sudo hcitool lescan). This will list all the BLE devices, for example a identified Aqualin device is (it identifies as Spray-Mist, like the app):
 
-::
 
     $  sudo hcitool lescan
 
