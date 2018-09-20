@@ -29,7 +29,7 @@ Create a folder for example aqualin and clone the repository
 
 ::
 
-    $  git clone 
+    $  git clone https://github.com/RoyOltmans/aqualin.git /opt/aqualin
 
 # Configuration
 
