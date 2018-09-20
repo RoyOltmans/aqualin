@@ -11,6 +11,8 @@ The purpose of this script is to prove that it's possible to control a off the s
 
 I wrote two scripts containing the gatt commands to the correct uuid to control the device. Its neseccary to change the mac address to your aquilin device within this command in the script.
 
+Next step will be a port to Python combining it with MQTT as an IoT controller/provider endpoint.
+
 # Installation
 
 Requirements are: 
