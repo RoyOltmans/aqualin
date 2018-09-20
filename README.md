@@ -63,4 +63,4 @@ Examples are:
 
 Last two characters are hex written minute timer (how long the valve will be opened, untested but assumed in a quick test)
 
-- 7b03010000 off
+- 7b03000000 off
