@@ -5,7 +5,13 @@ All rights of the device are owned by Aqualin
 
 This is a reverse engeneered Bluetooth Low Energy control of the aqualin BLE solenoid valve device without custumizations on the device itself.
 
+# Motivation
+
 The purpose of this script is to prove that it's possible to control a off the shelve BLE selenoid valve with open software (scripts). No garantees or liability can be given on usage of these scripts, usage of these scripts are at your own risk. 
+
+I wrote two scripts containing the gatt commands to the correct uuid to control the device. Its neseccary to change the mac address to your aquilin device within this command in the script.
+
+# Installation
 
 Requirements are: 
 - Linux distro (eg debian or raspbian etc)
@@ -18,7 +24,14 @@ To install hcitool and gatttool for debian:
 
     $  sudo apt install git bluetooth bluez
 
-I wrote two scripts containing the gatt commands to the correct uuid to control the device. Its neseccary to change the mac address to your aquilin device within this command in the script.
+
+Create a folder for example aqualin and clone the repository
+
+::
+
+    $  git clone 
+
+# Configuration
 
 To identify the mac address of your device use hcitool (sudo hcitool lescan). This will list all the BLE devices, for example a identified Aqualin device is (it identifies as Spray-Mist, like the app):
 
@@ -33,6 +46,8 @@ The command in the open valve for 30min is:
 ::
 
     $  gatttool -b [01:02:03:04:05:06 put a valid mac address of the aqualin device here without the brackets] --char-write-req -a 0x0073 -n 7b0301003c
+
+# Details
 
 Service identified for manual programming:
 uuid: 0000fceb-0000-1000-8000-00805f9b34fb
