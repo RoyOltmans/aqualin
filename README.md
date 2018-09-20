@@ -13,6 +13,11 @@ Requirements are:
 - gatttool 
 - A compatible version of a BLE stack and hardware (a rpi zero w in total works great and is quite cheap)
 
+To install hcitool and gatttool for debian:
+::
+
+    $  sudo apt install git bluetooth bluez
+
 I wrote two scripts containing the gatt commands to the correct uuid to control the device. Its neseccary to change the mac address to your aquilin device within this command in the script.
 
 To identify the mac address of your device use hcitool (sudo hcitool lescan). This will list all the BLE devices, for example a identified Aqualin device is (it identifies as Spray-Mist, like the app):
