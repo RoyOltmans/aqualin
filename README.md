@@ -3,7 +3,9 @@
 
 All rights of the device are owned by Aqualin
 
-This is a reverse engeneered Bluetooth Low Energy control of the aqualin BLE solenoid valve device without custumizations on the device itself.
+This is a reverse engeneered Bluetooth Low Energy control of the aqualin BLE solenoid valve device without custumizations on the device itself. 
+
+**Usage of this project is on your own risk.**
 
 # Motivation
 
