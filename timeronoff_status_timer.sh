@@ -16,7 +16,7 @@
 # 7b0301003c on for 60min
 # 7b03010000 off
 
-strblereadout=$(gatttool -b 01:02:03:04:05:9F --char-read -a 0x0073)
+strblereadout=$(gatttool -b [01:02:03:04:05:06 put a valid mac address of the aqualin device here without the brackets] --char-read -a 0x0073)
 strvalue=${strblereadout:42:5}
 hexvalue="${strvalue//[[:space:]]/}"
 
