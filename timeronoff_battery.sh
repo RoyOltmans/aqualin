@@ -4,7 +4,7 @@
 # Reverse engineering of Aqualin BLE Selenoid Valve
 # Service identified for maunual programming:
 # uuid: 0000fceb-0000-1000-8000-00805f9b34fb
-# handle: 0x0073
+# handle: 0x0081
 
 # read bytes/char string see the breakup
 
