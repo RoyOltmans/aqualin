@@ -45,7 +45,7 @@ To identify the mac address of your device use hcitool (sudo hcitool lescan). Th
 Now edit the two files ""timeronoff_off.sh"" and ""timeronoff_on.sh"". The mac address (in this ecxample *01:02:03:04:05:06*) in the file should be entered in the command below replacing the brackets with the correct mac, for example: 
 ::
 
-    $  gatttool -b 01:02:03:04:05:06 --char-write-req -a 0x0073 -n 7b0301003c)
+    $  gatttool -b 01:02:03:04:05:06 --char-write-req -a 0x0073 -n 7b0301003c
 
 # Details
 
